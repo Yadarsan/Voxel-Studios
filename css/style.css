@@ -102,22 +102,16 @@ a:focus {
   left: 0;
   width: 100%;
   height: 65%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
   overflow: hidden;
-  z-index: -1; /* Send the video to the background */
+  z-index: -1; /* Send the background to the back */
 }
 
-.hero_area .hero_bg_box .bg_video_box {
+.hero_area .hero_bg_box .bg_image_box {
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 50%;
   width: 100%;
   height: 90%;
@@ -126,7 +120,7 @@ a:focus {
   z-index: -1;
 }
 
-.hero_area .hero_bg_box video {
+.hero_area .hero_bg_box img {
   position: absolute;
   top: 50%;
   left: 50%;
